@@ -136,19 +136,19 @@ ZMK_BEHAVIOR(hmr_s, hold_tap,
        compatible = "zmk,behavior-tap-dance";
        #binding-cells = <0>;
        tapping-term-ms = <200>;
-       bindings = C_VOL_DOWN, C_PREV;
+       bindings = <&kp C_VOL_DOWN>, <&kp C_PREV>;
     };
     td1: tap_dance_1 {
        compatible = "zmk,behavior-tap-dance";
        #binding-cells = <0>;
        tapping-term-ms = <200>;
-       bindings = C_MUTE, C_PP;
+       bindings = <&kp C_MUTE>, <&kp C_PP>;
     };
     td2: tap_dance_2 {
        compatible = "zmk,behavior-tap-dance";
        #binding-cells = <0>;
        tapping-term-ms = <200>;
-       bindings = C_VOL_UP, C_NEXT;
+       bindings = <&kp C_VOL_UP>, <&kp C_NEXT>;
     };
   };
   conditional_layers {
