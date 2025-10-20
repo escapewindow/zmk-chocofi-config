@@ -136,7 +136,7 @@ ZMK_BEHAVIOR(hmr_s, hold_tap,
        compatible = "zmk,behavior-tap-dance";
        #binding-cells = <0>;
        tapping-term-ms = <200>;
-       bindings = <&kp C_VOL_DOWN>, <&kp C_PREV>;
+       bindings = <&kp C_VOL_DN>, <&kp C_PREV>;
     };
     td1: tap_dance_1 {
        compatible = "zmk,behavior-tap-dance";
