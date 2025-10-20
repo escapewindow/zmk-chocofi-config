@@ -48,7 +48,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '~'
+  - '`'
   - '&hml LALT MINUS'
   - '&hml LGUI LBKT'
   - '&hml LCTRL RBKT'
@@ -85,10 +85,10 @@ layers:
   - F8
   - F9
   - F10
-  - '~'
-  - '&hml LALT MINUS'
-  - '&hml LGUI LBKT'
-  - '&hml LCTRL RBKT'
+  - End
+  - '&hml LALT PG_UP'
+  - '&hml LGUI PG_DN'
+  - '&hml LCTRL HOME'
   - {t: fn, h: '$$mdi:toggle-switch$$'}
   - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-left$$', type: sym_by_sym}
   - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-down$$', type: sym_by_sym}
