@@ -132,7 +132,7 @@ layers:
   - {t: '$$mdi:bluetooth-connect$$', s: '2', type: sym_sub_text}
   - {t: '$$mdi:bluetooth-connect$$', s: '3', type: sym_sub_text}
   - {t: '$$mdi:bluetooth-connect$$', s: '4', type: sym_sub_text}
-  - ''
+  - '&studio_unlock'
   - ''
   - ''
   - ''
